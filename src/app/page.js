@@ -6,7 +6,13 @@ export default function TrafficLight() {
 
   function handleClick() {
     setWalk(!walk);
+    if(walk){
+      alert("lo siguiente es parar");
+    }else{
+      alert("lo siguiente es caminar");
+    }
   }
+  
 
   return (
     <>
